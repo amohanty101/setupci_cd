@@ -1,0 +1,39 @@
+<html>
+
+<head>
+  
+</head>
+
+<body>
+
+</body>
+
+<script>
+
+// Wait for document to load  
+document.addEventListener('DOMContentLoaded', function() {
+
+  // Function to set color
+  function setColor() {
+
+    const selectedColor = 'red'; 
+
+    document.body.style.backgroundColor = selectedColor;
+
+    const heading = document.createElement('h1');
+    heading.innerText = hello();
+
+    document.body.appendChild(heading);
+
+  }
+
+  // Directly call setColor
+  setColor();
+
+});
+
+</script>
+
+<script src='./hello.js'></script>
+
+</html>
